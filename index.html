@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Time</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    </link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" > </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js" > </script>
+</head>
+<body>
+    <div class="splash d-flex align-items-center justify-content-center">
+        <canvas id="confeti" width="300" height="300" class="active"></canvas>
+        <div class="image">
+            <img src="./Imagenes/logoblack.jpg" alt="Party-Time">
+        </div>
+        <h1 class="fade-in line tiping-animation">Welcome to Party Time</h1>
+    </div>
+    <div class="Tpri">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-2">
+                <img src="./Imagenes/logo2.png" alt="Party-Time">
+              </div>
+              <div class="col-10">
+                <nav>
+                    <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
+                       <ul class="menu">
+                        <li><a href="#" id="inicioa"> Inicio</a></li>
+                        <li><a  href="#" id="nosotrosa"> Nosotros</a></li>
+                        <li><a  href="#" id="serviciosa"> Servicios</a></li>
+                        <li><a  href="#" id=""> Eventos</a>
+                        <li><a  href="#" id="contactoa"> Contacto</a>
+                      </ul>
+                </nav>
+              </div>
+            </div>
+        </div>
+        <div id="ini" >
+          <div class="cen3">
+            <h1 class="hparti2"><span class="sparty1"><b>Somos</b> <span class="spartyinicio">Party Time</span> <b> Eventos</b></span></h1>
+          </div>
+            <div class="cen">
+              <div class="container">
+                <div class="carda text-center" id="card">
+                  <div class="card-header" id="card-header">
+                      
+                  </div>
+                  <br>
+                  <div class="carda-body" id="card-body">
+                    <h5 class="carda-title" id="card-title"><span class="spartyini">V</span>EN A CREAR MOMENTOS INOLVIDABLE<span class="spartyini">S</span></h5>
+                    <small class="pcen2"><span class="pcenspan">E</span>ntendemos la importacia de hacer de sus celebraciones un acontecimiento unico e inolvidable por ello nuestro compromiso deponer a su alcance  la experiencia la logistica la seguridad y el mejor servicio de personal altamente calificado para sus festejos.</small>
+                  </div>
+                  <br>
+                  <div class="carda-footer" id="card-footer">
+                      <a href="#" class="btn btn-primary" id="btn">Conocenos</a>
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="nos">
+            <div class="cen2">
+              <h1 class="hparti2"><span class="sparty">Nuestro Equipo</span></h1>
+          </div>
+          <div class="container text-center">
+              <div class="row justify-content-md-center" id="rownos">
+                <div class="col col-lg-3" id="colnos">
+                  <div class="row row-cols-1 row-cols-md-1 g-1">
+                      <div class="col">
+                        <div class="card" id="card2">
+                          <img src="./Imagenes/alejo.jpg" class="card-img-top" id="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-title"><span class="spannosotros">A</span>LEJANDRO SARMIENTO</h5>
+                            <br>
+                            <p class="card-text">Dj recidente de nuestra casa de eventos y producciones, Coordinador de Eventos.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3" id="colnos">
+                  <div class="row row-cols-1 row-cols-md-1 g-1">
+                      <div class="col">
+                        <div class="card" id="card2">
+                          <img src="./Imagenes/brayan.jpg" class="card-img-top" id="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-title"><span class="spannosotros">B</span>RAYAN SARMIENTO</h5>
+                            <br>
+                            <p class="card-text">Dj de nuestra casa de eventos y producciones, Coordinador de Eventos.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="cen2">
+              <a href="#" class="btn btn-primary" id="btn2">Contactenos</a>
+          </div>  
+        </div>
+        <div id="servi">
+          <div class="cen2">
+            <h1 class="hparti2"><span class="sparty">Nuestros Servicios</span></h1>
+        </div>
+        <div class="Tpri3 d-flex align-items-center justify-content-center">
+          <div class="row row-cols-1 row-cols-md-2 g-2" id="row3">
+            <div class="col d-flex align-items-center justify-content-center">
+              <figure class="snip1543">
+                <img src="./Imagenes/boda1.jpg" alt="sample108" />
+                <figcaption>
+                  <h3>Bodas</h3>
+                  <br>
+                  <p>Tu fiesta de boda un momento único e inolvidable, te ofrecemos los servicios de decoración, logística y banquetes para matrimonio.</p>
+                </figcaption>
+                <a href="#" id="bodasa"></a>
+              </figure>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <figure class="snip1543 hover">
+                <img src="./Imagenes/quince1.jpg" alt="sample100" />
+                <figcaption>
+                  <h3>Quince Años</h3>
+                  <br>
+                  <p>Planeamos cada aspecto de la celebración de los quince años de tu hija, comida, shows, protocolo, decoración y salón de recepciones.</p>
+                </figcaption>
+                <a href="#" id="quincea"></a>
+              </figure>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <figure class="snip1543 hover"><img src="./Imagenes/eventos1.jpg" alt="sample100" />
+                <figcaption>
+                  <h3>Diseño de eventos</h3>
+                  <br>
+                  <p>Ponemos a su servicio un equipo de expertos en la organización y producción de eventos para se encargue realizar un evento único.</p>
+                </figcaption>
+                <a href="#" id="eventosa"></a>
+              </figure>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <figure class="snip1543"><img src="./Imagenes/empresa1.jpg" alt="sample101" />
+                <figcaption>
+                  <h3>Empresarial</h3>
+                  <br>
+                  <p>Teniendo como base colores de su imagen corporativa, se realizara la decoración y ambientación de lugar del evento.</p>
+                </figcaption>
+                <a href="#" id="empresaa"></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div id="bodas">
+          <div class="cen2">
+            <h1 class="hparti2"><span class="sparty">BODAS</span></h1>
+        </div>
+          <div class="Tpri4 d-flex align-items-center justify-content-center">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" >
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner ">
+              </div>
+              <div class="carousel-item active " data-bs-interval="1000">
+                <div class="cardbodas">
+                  <div class="card__background" style="background-image: url('./Imagenes/bodas2.jpg')"></div>
+                  <div class="contentbodas">
+                      <h2>01</h2>
+                      <h3>¡Mi fiesta de matrimonio la celebración perfecta!</h3>
+                      <p>
+                        Hacemos de tu fiesta de boda un momento único e inolvidable, te ofrecemos los servicios de decoración, logística y banquetes para matrimonio. Descarga la cotización  de tu  fiesta de boda Fiestas de matrimonio alegres, elegantes e inolvidables A llegado el día de de unir tu vida con la persona que mas amas, vas a organizar una fiesta de matrimonio y quieres que todo salga perfecto, comida, música, decoración y claro esta el lugar de la recepción tienen que estar a la altura de la celebración.
+                      </p>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item" >
+                <div class="cardbodas">
+                  <div class="card__background" style="background-image: url('./Imagenes/bodas3.jpg')"></div>
+                  <div class="contentbodas">
+                      <h2>02</h2>
+                      <h3>Organización integral de tu fiesta de boda</h3>
+                      <p>Fiestas Premium planeamos cada instante para que tu evento sea alegre, elegante e inolvidable. <br><br>¿Qué comida ofrecer en mi evento? <br><br>Preparamos un exquisito menú el cual ha sido previamente seleccionado por ti y tu pareja. Los asistentes a la reunión degustaran de licores de reconocidas marcas y frescos cócteles.
+                      Elige si deseas brindar a los invitados deliciosos postres o frescas frutas y claro que no puede faltar buena porción de torta.</p>
+                    
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item " >
+                <div class="cardbodas">
+                  <div class="card__background" style="background-image: url('./Imagenes/bodas4.jpg')"></div>
+                  <div class="contentbodas">
+                      <h2>03</h2>
+                      <h3>Shows, fotografía y vídeo.</h3>
+                      <p>Recordaras los instantes más emotivos de la reunión con la grabación en vídeo en tres locaciones (iglesia, casa de los padres y salón de recepciones) y la sesión de fotografía con los asistentes a la boda. Presentación de mariachis, grupos de música vallenata y carnavalito para que te diviertas como nunca con familiares y amigos.
+                        <br>
+                        <br>
+                        Un repertorio musical para todas las edades acompañado de un  show de luces de ultima generación que creara un ambiente único y alegre en la celebración del matrimonio.</p>
+                    
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="cardbodas">
+                  <div class="card__background" style="background-image: url('./Imagenes/bodas5.jpg')"></div>
+                  <div class="contentbodas">
+                      <h2>04</h2>
+                      <h3>Decoración y logística para matrimonios.</h3>
+                      <p>Ponemos a su servicio un equipo de expertos en decoración, música, cocina, fotografía mesa y bar.
+                        Decoración del salón de eventos con hermosos arreglos florales y centros de mesa, mantelería fina, todo combinado de acuerdo al estilo y gusto de los recién casados.
+                        <br>
+                        <br>
+                        Te ayudamos a buscar el sitio para realizar el evento te ofrecemos salones de recepcióndentro y en  los alrededores de Bogotá.</p>
+                    
+                  </div>
+              </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>   
+          </div>
+                   
+        </div>
+        <div id="quince">
+          <div class="cen2">
+            <h1 class="hparti2"><span class="sparty">QUINCE AÑOS</span></h1>
+        </div>
+        <div class="containerq">
+          <div class="middleArea"></div>
+          <div class="mySlider">
+                <div  class="slideItems item1 active">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince2.jpg" alt="SliderImg">
+                    </div>
+                    <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check">
+                      <label for="like_check">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item2 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince4.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check2">
+                      <label for="like_check2">
+                          <i class="fas fa-heart"></i><br>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item3 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince5.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check3">
+                      <label for="like_check3">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item4 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince6.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check4">
+                      <label for="like_check4">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item5 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince7.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check5">
+                      <label for="like_check5">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item6 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince8.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check6">
+                      <label for="like_check6">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item7 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince9.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check7">
+                      <label for="like_check7">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item8 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince10.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check8">
+                      <label for="like_check8">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item9 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince11.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check9">
+                      <label for="like_check9">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item10 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince12.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check10">
+                      <label for="like_check10">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item11 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince13.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check11">
+                      <label for="like_check11">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item12 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince14.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check12">
+                      <label for="like_check12">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item13 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince15.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check13">
+                      <label for="like_check13">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item14 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince16.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check14">
+                      <label for="like_check14">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div  class="slideItems item15 next">
+                  <div class="slider-image-wrapper">
+                    <img class="slider-image" src="./Imagenes/quince17.jpg" alt="SliderImg">
+                    </div>
+                  <h1>Postcards From Italy</h1>
+                  <div class="heard">
+                    <div class="like">
+                      <input type="checkbox" id="like_check15">
+                      <label for="like_check15">
+                          <i class="fas fa-heart"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="myNavs">
+              <div class="left"><i id="navleft" class="fa fa-caret-left"></i></div>
+              <div class="right"><i id="navright" class="fa fa-caret-right"></i></div>
+            </div>
+        </div>
+        
+        </div> 
+    </div>
+   
+    
+
+
+  
+      <script src="JS/main.js"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.6.1/vanilla-tilt.min.js"></script>
+      <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+          max: 25,
+          speed: 400,
+          glare: true,
+          "max-glare": 1
+        });
+      </script>
+      
+</body>
+</html>
+
